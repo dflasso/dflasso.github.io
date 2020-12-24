@@ -1,0 +1,102 @@
+body {
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(0, 112, 128, 1) 15%,
+    rgba(255, 255, 255, 0.49343487394957986) 45%
+  );
+  background-attachment: fixed;
+  font-family: "Libre Baskerville", serif;
+}
+
+h1,
+h2 {
+  font-family: "Lobster", cursive, sans-serif;
+  color: #f1f1f1;
+}
+
+h3, h4 {
+  font-family: "Lobster", cursive, sans-serif;
+  color: rgba(0, 0, 0, 1);
+}
+
+footer{
+  padding: 3%;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color:black;
+  height: 200px;
+}
+
+
+footer h3 {
+  font-family: "Lobster", cursive, sans-serif;
+  color: #f1f1f1;
+}
+
+footer li{
+  color: #f1f1f1;
+}
+
+
+
+.full-width {
+  width: 100%;
+}
+
+.menu-icon {
+  font-size: 30px;
+  cursor: pointer;
+  color: #f1f1f1;
+  margin-right: 5%;
+}
+
+.brand-container {
+  display: flex;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 1);
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 16px;
+  color: rgb(255, 255, 255);
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: rgba(0, 112, 128, 1);
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+  color:  rgb(255, 255, 255);
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
+}
