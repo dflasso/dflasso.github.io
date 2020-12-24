@@ -75,8 +75,8 @@ const updateCarousel = (currtenImg) => {
 
 updateCarousel(carousel.getImgCarousel());
 
-// setInterval(() => {
-//     carousel.nextImageCarousel();
-//     updateCarousel(carousel.getImgCarousel());
-// }, 10000);
+setInterval(() => {
+    carousel.nextImageCarousel();
+    updateCarousel(carousel.getImgCarousel());
+}, 10000);
 
