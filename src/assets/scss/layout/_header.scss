@@ -62,9 +62,15 @@
     }
   }
 
+  .photo{
+		border-radius: 58%;
+		height: 100%;
+		width: 100%;
+	}
+
   .logo {
-    width: 5.5rem;
-    height: 5.5rem;
+    width: 13.5rem;
+    height: 14.5rem;
     line-height: 5.5rem;
     border: solid _size(border-width) _palette(border);
     border-radius: 100%;
@@ -217,9 +223,15 @@
       }
     }
 
+    .photo{
+      border-radius: 58%;
+      height: 100%;
+      width: 100%;
+    }
+
     .logo {
-      width: 4.75rem;
-      height: 4.75rem;
+      width: 8.75rem;
+      height: 9.75rem;
       line-height: 4.75rem;
 
       .icon {

@@ -16,6 +16,12 @@
 		margin: 0 auto;
 	}
 
+	#header .photo{
+		border-radius: 58%;
+		height: 100%;
+		width: 100%;
+	}
+
 	#header .content {
 		display: inline-block;
 	}
